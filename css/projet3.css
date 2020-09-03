@@ -1,0 +1,156 @@
+body{
+	background-color: #00CC99;
+	margin: 0px;
+}
+
+header{
+	
+	
+	width: 100%;
+	background-color:#FFE96D;
+	color: #DD0049;
+
+}
+
+
+#titre-site{
+	
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+ /* css pour le carrousel*/
+
+
+form button{
+	border: 1px #00CC99 solid;
+	border-radius: 10px;
+	background-color: #DD0049;
+}
+
+
+
+#slider{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+img{
+	width:700px;
+	height: 350px;
+	margin: auto;
+}
+
+
+
+
+/*css pr la reservation*/
+#infosreservation{
+
+
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding: 15px;
+	width: 300px;
+	border:3px #DD0049 solid;
+	border-radius: 10px;
+	background-color: #FFE96D;
+	
+}
+
+#infosreservation h3{
+	text-align: center;
+	border-top: 1px #DD0049 solid;
+	font-family: Georgia, serif;
+}
+h3 p{
+	margin:-5px;
+}
+#formulaire{
+	display: none;
+	border-top: 1px #DD0049 solid;
+	padding-top: 5px;
+}
+#map{
+	width: 850px;
+	height: 600px;
+	margin-right: 25px;
+	z-index: 2;
+}
+
+#container_mapinfos{
+	display: flex;
+
+}
+#pasVelo{
+	color: red;
+	font-size: 1.2em;
+}
+
+/* apparition du canvas et des bouttons */
+#canvas1{
+	border: orange solid 5px;
+	background-color: azure;
+	
+}
+
+
+#signature{
+display: none;
+margin-left: 10px;
+}
+
+
+#reservation{
+	margin-left: 10px;	
+}
+
+
+/*timer et messages*/
+fieldset{
+
+	font-family: Georgia, serif;
+	width: 850px;
+	height: 150px;
+	margin-top: 20px;
+	background-color: #FFE96D;
+	margin-bottom: 50px;
+
+}
+#timer{
+	font-size: 20px;
+	
+}
+#annulation{
+	display: none;
+}
+
+
+/*différents bouttons*/
+.bout{
+	background-color: #DD0049;
+	border: 3px #00CC99 solid;
+	border-radius: 10px;
+}
+.bout:hover{
+	background-color: #00CC99;
+}
+
+
+/* footer*/
+
+footer{
+	
+	border-top: 1px solid #FFE96D;
+	text-align: center;
+	margin-bottom: 0px;
+}
+footer h3{	
+
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
